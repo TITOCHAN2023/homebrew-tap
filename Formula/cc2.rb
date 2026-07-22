@@ -1,28 +1,28 @@
 class Cc2 < Formula
   desc "Claude 官网多账号并行/轮询工具 (默认账号永远垫底)"
   homepage "https://github.com/TITOCHAN2023/claude-multi-acct"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.0/cc2-darwin-arm64"
-      sha256 "1d3004bb8d4553ea18b1361e0f72945089d6d926da105ccaec28eeb0b002a31c"
+      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.1/cc2-darwin-arm64"
+      sha256 "7cbb0200bb1f285746ef89d32d1d4836d51fb193bde03f96abc10b5ef11ba859"
     end
     on_intel do
-      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.0/cc2-darwin-amd64"
-      sha256 "4dc513779d0fed9fbf3b4b8d0d3aebb089e51e8a7d18bb6dc4b9aad8600779ef"
+      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.1/cc2-darwin-amd64"
+      sha256 "825013d8fead38ce682444f403ad17bbd74b0ee2c8388d4f51fb84f75a35f9c4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.0/cc2-linux-arm64"
-      sha256 "597a701e0fc282cc4aa69ff15b92842d665a3e36c1da773603ded73874e0db5b"
+      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.1/cc2-linux-arm64"
+      sha256 "80ccb52ba37e9b106e8859c03fb74345cea8d4ea3d04429b9154bbd8b61d1dcf"
     end
     on_intel do
-      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.0/cc2-linux-amd64"
-      sha256 "2ca35ced8f3db4e06f029dda9f1c135205d9cec2807668f09d258383fff9862d"
+      url "https://github.com/TITOCHAN2023/claude-multi-acct/releases/download/v0.2.1/cc2-linux-amd64"
+      sha256 "cbb66e7adc3389a9c9b9c1016b8f79a1fead3ad0a9bc0bf08f20fd011e6d835b"
     end
   end
 
